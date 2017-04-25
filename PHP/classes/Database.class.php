@@ -5,7 +5,7 @@ class Database {
     private $host = "us-cdbr-azure-southcentral-f.cloudapp.net";
     private $username = "b6be0ce0ae9169";
     private $password = "10ecf166";
-    private $database = "twitter_db";
+    private $database = "acsm_1f4da07b9663f60";
 
     public function __construct() {
         $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
