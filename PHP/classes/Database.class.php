@@ -2,10 +2,10 @@
 
 class Database {
     private $connection;
-    private $host = "localhost";
-    private $username = "root";
-    private $password = "";
-    private $database = "PW_Twitter";
+    private $host = "marcos@marcosismai";
+    private $username = "marcos";
+    private $password = "Azevedo123";
+    private $database = "twitterdb";
 
     public function __construct() {
         $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
